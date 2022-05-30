@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 500px;
+    background-color: blue;
+}
+
+nav{
+    background-color: cyan;
+    height: 100px;
+}
+
+.nav-content{
+    background-color: orange;   
+}
+
+.nav-content-links{
+    background-color: orange;  
+    padding: 15px;
+}
+
+.flex-container-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    background-color: pink;
+    width: 700px;
+    height: 300px;
+}
+
