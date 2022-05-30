@@ -7,6 +7,7 @@
 header{
     height: 500px;
     background-color: blue;
+    margin-bottom: 20px;
 }
 
 nav{
@@ -20,7 +21,6 @@ nav{
 
 .nav-content-links{
     background-color: orange;  
-    padding: 15px;
 }
 
 .flex-container-nav{
@@ -41,3 +41,40 @@ nav{
     height: 300px;
 }
 
+.main-flex-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main-flex-item-1{
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+}
+
+.main-flex-item-2{
+    background-color: pink;
+    width: 300px;
+    height: 300px;  
+}
+
+.main-flex-container-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+}
+
+.last-section{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.last-sect-child{
+    background-color: green;
+    width: 45%;
+    height: 500px;
+    margin: auto;
+}
